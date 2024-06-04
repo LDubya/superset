@@ -100,6 +100,10 @@ WEBDRIVER_BASEURL_USER_FRIENDLY = WEBDRIVER_BASEURL
 
 SQLLAB_CTAS_NO_LIMIT = True
 
+# Set your secure secret key here
+SECRET_KEY = 'your_generated_secret_key_here'
+SUPERSET_SECRET_KEY = 'your_generated_secret_key_here'
+
 #
 # Optionally import superset_config_docker.py (which will have been included on
 # the PYTHONPATH) in order to allow for local settings to be overridden
